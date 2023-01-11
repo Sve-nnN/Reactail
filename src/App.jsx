@@ -4,7 +4,8 @@ import "./App.css";
 import { Navbar } from "./components/navbar";
 import Loading from "./components/loading";
 import Card from "./components/card";
-
+import Sidebar from "./components/sidebar";
+import Footer from "./components/footer";
 async function FetchCocktail(setIsLoading) {
   try {
     setIsLoading(true);
@@ -30,26 +31,35 @@ function App() {
 
   useEffect(() => {
     async function DrinkList() {
-      const DrinksArray = await FetchCocktail(setLoading);
+      const DrinksArray = await FetchCocktail(setIsLoading);
       setDrinksData(DrinksArray);
     }
     DrinkList();
     console.log(isLoading);
-  }, [setIsLoading, DrinksData]);
+  }, [setIsLoading]);
   return (
     <div className="App">
-      <Navbar />
-
-      {isLoading ? (
-        <Loading />
-      ) : (
-        <div className="grid gap-2 col-span-2">
-          {DrinksData.map((drink) => (
-            <Card name={drink.strDrink} />
-          ))}
-        </div>
-      )}
-      <br />
+      <Sidebar />
+      <section className="sm:ml-64">
+        <Navbar />
+        {isLoading ? (
+          <Loading />
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 my-3 place-content-center">
+            {DrinksData.map((drink) => (
+              <Card
+                name={drink.strDrink}
+                img={drink.strDrinkThumb}
+                alhocholic={drink.strAlcoholic}
+                glass={drink.strGlass}
+                category={drink.strCategory}
+                copy={drink.strInstructionsES}
+              />
+            ))}
+          </div>
+        )}
+        <Footer />
+      </section>
 
       <br />
     </div>

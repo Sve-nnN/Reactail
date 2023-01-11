@@ -2,28 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  margin: 0px;
+  padding: 1%;
 }
-
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0px;
-  padding: 0px;
 }
 h1,
 h2,
 h3,
 h4 {
   font-family: "Source Sans Pro", sans-serif;
-}
-.navbar {
-  position: absolute;
-  top: 0;
-  background-color: aliceblue;
-  color: #242424;
-  min-height: 1em;
-  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
