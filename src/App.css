@@ -16,3 +16,9 @@ h4 {
   padding: 0px;
   margin: 0px;
 }
+.clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

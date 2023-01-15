@@ -1,6 +1,6 @@
 export default function Card({ name, img, alhocholic, glass, category, copy }) {
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm bg-gray-200 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
       <img src={img} alt={name} className="rounded-t-lg" />
       <div className="p-5">
         <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -8,7 +8,7 @@ export default function Card({ name, img, alhocholic, glass, category, copy }) {
         </h2>
       </div>
       <div className="px-6 pt-4 pb-2">
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 clamp">
           {copy}
         </p>
         <div className="grid grid-cols-3 gap-1 items-center">

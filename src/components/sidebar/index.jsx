@@ -1,10 +1,10 @@
-export default function Sidebar() {
+export default function Sidebar({ darkMode }) {
   return (
     <aside
       className="fixed top-0 left-0 w-64 h-full hidden sm:block"
       aria-label="Sidenav"
     >
-      <div className="overflow-y-auto py-5 px-3 h-full bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+      <div className="overflow-y-auto py-5 px-3 h-full bg-gray-200 border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
         <ul className="space-y-2">
           <li>
             <a
@@ -39,9 +39,9 @@ export default function Sidebar() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span className="flex-1 ml-3 text-left whitespace-nowrap">
@@ -55,9 +55,9 @@ export default function Sidebar() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </button>
@@ -103,9 +103,9 @@ export default function Sidebar() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span className="flex-1 ml-3 text-left whitespace-nowrap">
@@ -119,9 +119,9 @@ export default function Sidebar() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </button>
@@ -188,9 +188,9 @@ export default function Sidebar() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span className="flex-1 ml-3 text-left whitespace-nowrap">
@@ -204,9 +204,9 @@ export default function Sidebar() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </button>
@@ -238,7 +238,7 @@ export default function Sidebar() {
             </ul>
           </li>
         </ul>
-        <ul className="pt-5 mt-5 space-y-2 border-t border-gray-200 dark:border-gray-700">
+        <ul className="pt-5 mt-5 space-y-2 border-t border-gray-500 dark:border-gray-700">
           <li>
             <a
               href="#"
@@ -253,9 +253,9 @@ export default function Sidebar() {
               >
                 <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span className="ml-3">Docs</span>
@@ -291,9 +291,9 @@ export default function Sidebar() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0c0 .993-.241 1.929-.668 2.754l-1.524-1.525a3.997 3.997 0 00.078-2.183l1.562-1.562C15.802 8.249 16 9.1 16 10zm-5.165 3.913l1.58 1.58A5.98 5.98 0 0110 16a5.976 5.976 0 01-2.516-.552l1.562-1.562a4.006 4.006 0 001.789.027zm-4.677-2.796a4.002 4.002 0 01-.041-2.08l-.08.08-1.53-1.533A5.98 5.98 0 004 10c0 .954.223 1.856.619 2.657l1.54-1.54zm1.088-6.45A5.974 5.974 0 0110 4c.954 0 1.856.223 2.657.619l-1.54 1.54a4.002 4.002 0 00-2.346.033L7.246 4.668zM12 10a2 2 0 11-4 0 2 2 0 014 0z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <span className="ml-3">Help</span>
@@ -301,22 +301,56 @@ export default function Sidebar() {
           </li>
         </ul>
       </div>
-      <div className="hidden absolute bottom-0 left-0 justify-center p-4 space-x-4 w-full lg:flex bg-white dark:bg-gray-800 z-20">
-        <a
+      <div className="absolute bottom-0 left-0 justify-center p-4 space-x-4 w-full lg:flex bg-gray-200 dark:bg-gray-800 z-20">
+        <button
           href="#"
+          onClick={darkMode}
           className="inline-flex justify-center p-2 text-gray-500 rounded cursor-pointer dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-600"
         >
           <svg
-            aria-hidden="true"
             className="w-6 h-6"
             fill="currentColor"
-            viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            viewBox="0 0 256 256"
+            xml:space="preserve"
           >
-            <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"></path>
+            <defs></defs>
+            <g
+              style={{
+                stroke: "none",
+                strokeWidth: 0,
+                strokeDasharray: "none",
+                strokeLinecap: "butt",
+                strokeLinejoin: "miter",
+                strokeMiterlimit: 10,
+                fillRule: "nonzero",
+                fill: "none",
+                opacity: 1,
+              }}
+              transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
+            >
+              <path
+                d="M 87.823 60.7 c -0.463 -0.423 -1.142 -0.506 -1.695 -0.214 c -15.834 8.398 -35.266 2.812 -44.232 -12.718 c -8.966 -15.53 -4.09 -35.149 11.101 -44.665 c 0.531 -0.332 0.796 -0.963 0.661 -1.574 c -0.134 -0.612 -0.638 -1.074 -1.259 -1.153 c -9.843 -1.265 -19.59 0.692 -28.193 5.66 C 13.8 12.041 6.356 21.743 3.246 33.35 S 1.732 57.08 7.741 67.487 c 6.008 10.407 15.709 17.851 27.316 20.961 C 38.933 89.486 42.866 90 46.774 90 c 7.795 0 15.489 -2.044 22.42 -6.046 c 8.601 -4.966 15.171 -12.43 18.997 -21.586 C 88.433 61.79 88.285 61.123 87.823 60.7 z"
+                style={{
+                  stroke: "none",
+                  strokeWidth: 1,
+                  strokeDasharray: "none",
+                  strokeLinecap: "butt",
+                  strokeLinejoin: "miter",
+                  strokeMiterlimit: 10,
+                  fill: "rgb(0, 0, 0)",
+                  fillRule: "nonzero",
+                  opacity: 1,
+                }}
+                transform=" matrix(1 0 0 1 0 0) "
+                stroke-linecap="round"
+              />
+            </g>
           </svg>
-        </a>
-        <a
+        </button>
+        <button
           href="#"
           data-tooltip-target="tooltip-settings"
           className="inline-flex justify-center p-2 text-gray-500 rounded cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600"
@@ -329,12 +363,12 @@ export default function Sidebar() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
           </svg>
-        </a>
+        </button>
         <div
           id="tooltip-settings"
           role="tooltip"
@@ -352,14 +386,14 @@ export default function Sidebar() {
             aria-hidden="true"
             className="h-5 w-5 rounded-full mt-0.5"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 3900 3900"
           >
             <path fill="#b22234" d="M0 0h7410v3900H0z" />
             <path
               d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0"
               stroke="#fff"
-              stroke-width="300"
+              strokeWidth="300"
             />
             <path fill="#3c3b6e" d="M0 0h2964v2100H0z" />
             <g fill="#fff">
@@ -371,19 +405,19 @@ export default function Sidebar() {
                         id="a"
                         d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"
                       />
-                      <use xlink:href="#a" y="420" />
-                      <use xlink:href="#a" y="840" />
-                      <use xlink:href="#a" y="1260" />
+                      <use xlinkHref="#a" y="420" />
+                      <use xlinkHref="#a" y="840" />
+                      <use xlinkHref="#a" y="1260" />
                     </g>
-                    <use xlink:href="#a" y="1680" />
+                    <use xlinkHref="#a" y="1680" />
                   </g>
-                  <use xlink:href="#b" x="247" y="210" />
+                  <use xlinkHref="#b" x="247" y="210" />
                 </g>
-                <use xlink:href="#c" x="494" />
+                <use xlinkHref="#c" x="494" />
               </g>
-              <use xlink:href="#d" x="988" />
-              <use xlink:href="#c" x="1976" />
-              <use xlink:href="#e" x="2470" />
+              <use xlinkHref="#d" x="988" />
+              <use xlinkHref="#c" x="1976" />
+              <use xlinkHref="#e" x="2470" />
             </g>
           </svg>
         </button>
@@ -406,8 +440,8 @@ export default function Sidebar() {
                     id="flag-icon-css-us"
                     viewBox="0 0 512 512"
                   >
-                    <g fill-rule="evenodd">
-                      <g stroke-width="1pt">
+                    <g fillRule="evenodd">
+                      <g strokeWidth="1pt">
                         <path
                           fill="#bd3d44"
                           d="M0 0h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z"
@@ -471,7 +505,7 @@ export default function Sidebar() {
                     id="flag-icon-css-it"
                     viewBox="0 0 512 512"
                   >
-                    <g fill-rule="evenodd" stroke-width="1pt">
+                    <g fillRule="evenodd" strokeWidth="1pt">
                       <path fill="#fff" d="M0 0h512v512H0z" />
                       <path fill="#009246" d="M0 0h170.7v512H0z" />
                       <path fill="#ce2b37" d="M341.3 0H512v512H341.3z" />
@@ -492,7 +526,7 @@ export default function Sidebar() {
                     aria-hidden="true"
                     className="h-3.5 w-3.5 rounded-full mr-2"
                     xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
                     id="flag-icon-css-cn"
                     viewBox="0 0 512 512"
                   >
@@ -508,31 +542,31 @@ export default function Sidebar() {
                       width="30"
                       height="20"
                       transform="matrix(76.8 0 0 76.8 128 128)"
-                      xlink:href="#a"
+                      xlinkHref="#a"
                     />
                     <use
                       width="30"
                       height="20"
                       transform="rotate(-121 142.6 -47) scale(25.5827)"
-                      xlink:href="#a"
+                      xlinkHref="#a"
                     />
                     <use
                       width="30"
                       height="20"
                       transform="rotate(-98.1 198 -82) scale(25.6)"
-                      xlink:href="#a"
+                      xlinkHref="#a"
                     />
                     <use
                       width="30"
                       height="20"
                       transform="rotate(-74 272.4 -114) scale(25.6137)"
-                      xlink:href="#a"
+                      xlinkHref="#a"
                     />
                     <use
                       width="30"
                       height="20"
                       transform="matrix(16 -19.968 19.968 16 256 230.4)"
-                      xlink:href="#a"
+                      xlinkHref="#a"
                     />
                   </svg>
                   中文 (繁體)
