@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="absolute md:inset-x-0 md:bottom-0 p-4 md:ml-14 bg-gray-200 rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+    <footer className="sticky bottom-0 p-4  bg-gray-200 rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
       <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
         © 2023 J
         <a href="https://github.com/Sve-nnN" className="hover:underline">

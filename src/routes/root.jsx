@@ -16,9 +16,12 @@ export default function Root() {
   return (
     <div className="App">
       <Sidebar darkMode={DarkMode} />
-      <section className="sm:ml-64">
+      <section className="sm:ml-64 ">
         <Navbar />
-        <Outlet />
+        <div className="flex flex-col items-center justify-center">
+          <Outlet />
+        </div>
+
         <Footer />
       </section>
     </div>

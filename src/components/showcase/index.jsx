@@ -14,7 +14,7 @@ export default function Showcase({
   cantidad3,
 }) {
   return (
-    <div className="width-full flex flex-col items-center justify-center m-8 bg-white border rounded-lg shadow-md md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <div className=" flex max-w-xl flex-col m-8 bg-white border rounded-lg shadow-md md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
       <img
         className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
         src={img}
