@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import Loading from "../components/loading";
 import { fetchCoctails } from "../redux/slices/coctails";
@@ -30,15 +30,16 @@ export default function CoctailList() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 my-3 place-content-center">
       {CoctailsData.map((drink) => (
-        <Card
-          key={drink.idDrink}
-          name={drink.strDrink}
-          img={drink.strDrinkThumb}
-          alhocholic={drink.strAlcoholic}
-          glass={drink.strGlass}
-          category={drink.strCategory}
-          copy={drink.strInstructionsES}
-        />
+        <Link to={`drink/${drink.idDrink}`} key={drink.idDrink}>
+          <Card
+            name={drink.strDrink}
+            img={drink.strDrinkThumb}
+            alhocholic={drink.strAlcoholic}
+            glass={drink.strGlass}
+            category={drink.strCategory}
+            copy={drink.strInstructionsES}
+          />
+        </Link>
       ))}
     </div>
   );

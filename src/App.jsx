@@ -1,34 +1,35 @@
-import { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { Navbar } from "./components/navbar";
-import Loading from "./components/loading";
-import Sidebar from "./components/sidebar";
-import Footer from "./components/footer";
 import "./App.css";
 import Pagination from "./components/pagination";
 import CoctailList from "./pages/coctail-list";
-import { getCoctailsisLoading } from "./redux/slices/selectors";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ErrorPage from "./routes/error-page";
+import Drink from "./routes/drink";
+import Drinks from "./routes/drinks";
+import Root from "./routes/root";
 
-/**
- * FUNCTION PARA EL MODO OSCURO
- */
-function DarkMode() {
-  console.log("si sirve");
-  document.documentElement.classList.toggle("dark");
-}
+// ROUTER
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Drinks />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "drink/:drinkId",
+        element: <Drink />,
+        errorElement: <ErrorPage />,
+      },
+    ],
+  },
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <Sidebar darkMode={DarkMode} />
-      <section className="sm:ml-64">
-        <Navbar />
-        <CoctailList />
-        <Pagination />
-        <Footer />
-      </section>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
