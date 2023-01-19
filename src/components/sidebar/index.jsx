@@ -311,10 +311,10 @@ export default function Sidebar({ darkMode }) {
             className="w-6 h-6"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             version="1.1"
             viewBox="0 0 256 256"
-            xml:space="preserve"
+            xmlSpace="preserve"
           >
             <defs></defs>
             <g
@@ -345,7 +345,7 @@ export default function Sidebar({ darkMode }) {
                   opacity: 1,
                 }}
                 transform=" matrix(1 0 0 1 0 0) "
-                stroke-linecap="round"
+                strokeLinecap="round"
               />
             </g>
           </svg>

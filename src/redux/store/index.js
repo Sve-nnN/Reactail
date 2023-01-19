@@ -3,5 +3,4 @@ import reducers from "../reducers";
 
 export default configureStore({
   reducer: reducers,
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware(),
 });
