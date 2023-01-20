@@ -1,7 +1,10 @@
 import coctail from "../../assets/cocktail.png";
-import { Form } from "react-router-dom";
+import { Form, useLocation, useSearchParams } from "react-router-dom";
 
 export function Navbar() {
+  const { pathname } = useLocation();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const busqueda = searchParams.get("search");
   return (
     <nav className="bg-gray-200 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
@@ -51,7 +54,7 @@ export function Navbar() {
               </svg>
               <span className="sr-only">Search icon</span>
             </div>
-            <Form method="post" action="/events">
+            <Form action="/search/">
               <input
                 name="search"
                 type="text"

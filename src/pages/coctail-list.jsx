@@ -10,15 +10,15 @@ import {
 } from "../redux/slices/selectors";
 import Card from "../components/card";
 export default function CoctailList() {
-  const { id } = useParams();
+  const { drinkId } = useParams();
   const dispatch = useDispatch();
   const isLoading = useSelector(getCoctailsisLoading);
   const CoctailsData = useSelector(getCoctailsData);
   const error = useSelector(getCoctailsError);
 
   useEffect(() => {
-    dispatch(fetchCoctails(id));
-  }, [id]);
+    dispatch(fetchCoctails(drinkId));
+  }, [drinkId]);
 
   if (isLoading) {
     return <Loading />;
