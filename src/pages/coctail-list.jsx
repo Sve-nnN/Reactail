@@ -37,7 +37,7 @@ export default function CoctailList() {
             alhocholic={drink.strAlcoholic}
             glass={drink.strGlass}
             category={drink.strCategory}
-            copy={drink.strInstructionsES}
+            copy={drink.strInstructions}
           />
         </Link>
       ))}
