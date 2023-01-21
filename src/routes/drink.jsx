@@ -2,6 +2,7 @@ import Showcase from "../components/showcase";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+import Loading from "../components/loading";
 import {
   getDrinkData,
   getDrinkError,
@@ -25,7 +26,7 @@ export default function Drink() {
   }
 
   if (isLoading) {
-    return <p>Cargando</p>;
+    return <Loading />;
   }
 
   return (

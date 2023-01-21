@@ -14,14 +14,13 @@ function DarkMode() {
 
 export default function Root() {
   return (
-    <div className="h-screen">
+    <div className="min-h-screen	max-h-full	">
       <Sidebar darkMode={DarkMode} />
       <section className="sm:ml-64 ">
         <Navbar darkMode={DarkMode} />
         <div className="flex flex-col items-center justify-center">
           <Outlet />
         </div>
-
         <Footer />
       </section>
     </div>
