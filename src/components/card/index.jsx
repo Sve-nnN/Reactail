@@ -1,6 +1,6 @@
 export default function Card({ name, img, alhocholic, glass, category, copy }) {
   return (
-    <div className="max-w-sm bg-gray-200 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm h-full bg-gray-200 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
       <img src={img} alt={name} className="rounded-t-lg" />
       <div className="p-5">
         <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
