@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Sve-nnN/Reactail">
-    <img src="src/assets/coctail.png" alt="Logo" width="80" height="80">
+    <img src="/src/assets/cocktail.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Reactail</h3>
@@ -75,10 +75,6 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Sve-nnN`, `__Juango_`, `hiimjuan`, `juancarlosanguloabud`, `Reactail``
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
@@ -102,18 +98,23 @@ Para tener una copia local del proyecto, hacer lo siguiente:
 
 ### Installation
 
-q. Clone the repo
-   ```sh
-   git clone https://github.com/Sve-nnN/
-   ```
-w. Install NPM packages
-   ```sh
-   npm install
-   ```
-e. Run the project
-   ```sh
-   npm run dev
-   ```
+1. Clone the repo
+
+```sh
+git clone https://github.com/Sve-nnN/
+```
+
+2. Install NPM packages
+
+```sh
+npm install
+```
+
+3. Run the project
+
+```sh
+npm run dev
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,8 +127,6 @@ Usa esta app para buscar cocteles y descubrir cocteles nuevos
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
-
-
 
 See the [open issues](https://github.com/Sve-nnN/issues) for a full list of proposed features (and known issues).
 
@@ -162,7 +161,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Juan Angulo - [@\__Juango_](https://twitter.com/__Juango_) - juancarlosanguloabud@gmail.com
+Juan Angulo - [@\_\_Juango\_](https://twitter.com/__Juango_) - juancarlosanguloabud@gmail.com
 
 Project Link: [https://github.com/Sve-nnN/tps://github.com/Sve-nnN/ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
