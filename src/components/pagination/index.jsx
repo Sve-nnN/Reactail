@@ -5,7 +5,7 @@ export default function Pagination() {
       <ul className="grid grid-rows-2 grid-flow-col">
         <li>
           <NavLink
-            to="a"
+            to="../../../../a"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             A
@@ -13,7 +13,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="b"
+            to="../../../../b"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             B
@@ -21,7 +21,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="c"
+            to="../../../../c"
             aria-current="page"
             className="z-10 block px-3 py-2 leading-tight text-blue-600 border border-blue-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
           >
@@ -30,7 +30,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="d"
+            to="../../../../d"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             D
@@ -38,7 +38,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="e"
+            to="../../../../e"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             E
@@ -46,7 +46,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="f"
+            to="../../../../f"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             F
@@ -54,7 +54,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="g"
+            to="../../../../g"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             G
@@ -62,7 +62,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="h"
+            to="../../../../h"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             H
@@ -70,7 +70,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="i"
+            to="../../../../i"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             I
@@ -78,7 +78,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="j"
+            to="../../../../j"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             J
@@ -86,7 +86,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="k"
+            to="../../../../k"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             K
@@ -94,7 +94,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="l"
+            to="../../../../l"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             L
@@ -102,7 +102,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="m"
+            to="../../../../m"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             M
@@ -110,7 +110,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="n"
+            to="../../../../n"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             N
@@ -118,7 +118,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="o"
+            to="../../../../o"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             O
@@ -126,7 +126,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="p"
+            to="../../../../p"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             P
@@ -134,7 +134,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="q"
+            to="../../../../q"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             Q
@@ -142,7 +142,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="r"
+            to="../../../../r"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             R
@@ -150,7 +150,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="s"
+            to="../../../../s"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             S
@@ -158,7 +158,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="t"
+            to="../../../../t"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             T
@@ -166,7 +166,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="u"
+            to="../../../../u"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             U
@@ -174,7 +174,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="v"
+            to="../../../../v"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             V
@@ -182,7 +182,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="w"
+            to="../../../../w"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             W
@@ -190,7 +190,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="x"
+            to="../../../../x"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             X
@@ -198,7 +198,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="y"
+            to="../../../../y"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             Y
@@ -206,7 +206,7 @@ export default function Pagination() {
         </li>
         <li>
           <NavLink
-            to="z"
+            to="../../../../z"
             className="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             Z

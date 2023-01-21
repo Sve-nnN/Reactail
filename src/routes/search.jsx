@@ -1,24 +1,25 @@
 import { useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useSearchParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import Loading from "../components/loading";
-import { fetchCoctails } from "../redux/slices/coctails";
+import search, { fetchSearch } from "../redux/slices/search";
 import {
-  getCoctailsData,
-  getCoctailsisLoading,
-  getCoctailsError,
+  getSearchData,
+  getSearchLoading,
+  getSearchError,
 } from "../redux/slices/selectors";
-import Card from "../components/card";
-export default function CoctailList() {
-  const { drinkId } = useParams();
-  const dispatch = useDispatch();
-  const isLoading = useSelector(getCoctailsisLoading);
-  const CoctailsData = useSelector(getCoctailsData);
-  const error = useSelector(getCoctailsError);
 
+import Card from "../components/card";
+export default function Search() {
+  const dispatch = useDispatch();
+  const isLoading = useSelector(getSearchLoading);
+  const SearchData = useSelector(getSearchData);
+  const error = useSelector(getSearchError);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const searchTerm = searchParams.get("search");
   useEffect(() => {
-    dispatch(fetchCoctails(drinkId));
-  }, [drinkId]);
+    dispatch(fetchSearch(searchTerm));
+  }, [searchTerm]);
 
   if (isLoading) {
     return <Loading />;
@@ -29,7 +30,7 @@ export default function CoctailList() {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 my-3 place-content-center">
-      {CoctailsData.map((drink) => (
+      {SearchData.map((drink) => (
         <Link to={`../../../drink/${drink.idDrink}`} key={drink.idDrink}>
           <Card
             name={drink.strDrink}

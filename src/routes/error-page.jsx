@@ -1,15 +1,15 @@
 import { useRouteError } from "react-router-dom";
 
-export default function ErrorPage() {
+export default function ErrorSearch() {
   const error = useRouteError();
   console.error(error);
 
   return (
-    <div id="error-page">
-      <h1>Oops!</h1>
-      <p>Sorry, an unexpected error has occurred.</p>
+    <div className="error-page text-gray-900 dark:text-white">
+      <h1>Error 404</h1>
       <p>
-        <i>{error.statusText || error.message}</i>
+        Disculpa, no tenemos ninguna bebida que contenga tu término de búsqueda,
+        inténtalo de nuevo con otro nombre
       </p>
     </div>
   );

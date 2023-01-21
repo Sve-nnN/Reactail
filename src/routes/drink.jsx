@@ -16,7 +16,6 @@ export default function Drink() {
   const error = useSelector(getDrinkError);
   const DrinkObj = DrinkData[0];
 
-  console.log(DrinkData);
   useEffect(() => {
     dispatch(fetchDrink(drinkId));
   }, [drinkId]);

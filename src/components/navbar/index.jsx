@@ -1,4 +1,5 @@
 import coctail from "../../assets/cocktail.png";
+import { Link } from "react-router-dom";
 import { Form, useLocation, useSearchParams } from "react-router-dom";
 
 export function Navbar() {
@@ -8,12 +9,12 @@ export function Navbar() {
   return (
     <nav className="bg-gray-200 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="https://reactail.vercel.app/" className="flex items-center">
+        <Link to={"../../../../"} className="flex items-center">
           <img src={coctail} className="h-6 mr-3 sm:h-9" alt="Reactail Logo" />
           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
             Reactail
           </span>
-        </a>
+        </Link>
         <div className="flex md:order-2">
           <button
             type="button"
@@ -54,7 +55,7 @@ export function Navbar() {
               </svg>
               <span className="sr-only">Search icon</span>
             </div>
-            <Form action="/search/">
+            <Form action="../../../search/">
               <input
                 name="search"
                 type="text"
