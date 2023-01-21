@@ -163,15 +163,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Juan Angulo - [@\_\_Juango\_](https://twitter.com/__Juango_) - juancarlosanguloabud@gmail.com
 
-Project Link: [https://github.com/Sve-nnN/tps://github.com/Sve-nnN/ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+Project Link: [https://github.com/Sve-nnN/Reactail <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- []()
-- []()
-- []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
