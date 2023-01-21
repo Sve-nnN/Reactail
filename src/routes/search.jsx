@@ -8,8 +8,12 @@ import {
   getSearchLoading,
   getSearchError,
 } from "../redux/slices/selectors";
-
 import Card from "../components/card";
+/**
+ * It's a function that returns a div with a grid of cards. Each card is a link to a page with more
+ * information about the drink.
+ * @returns The search component is being returned.
+ */
 export default function Search() {
   const dispatch = useDispatch();
   const isLoading = useSelector(getSearchLoading);

@@ -9,6 +9,11 @@ import {
   getCoctailsError,
 } from "../redux/slices/selectors";
 import Card from "../components/card";
+/**
+ * It's a function that returns a div with a grid of cards. Each card is a link to a page with more
+ * information about the drink.
+ * @returns The CoctailList component is being returned.
+ */
 export default function CoctailList() {
   const { drinkId } = useParams();
   const dispatch = useDispatch();

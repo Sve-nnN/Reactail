@@ -9,6 +9,19 @@ import {
   getDrinkLoading,
 } from "../redux/slices/selectors";
 import { fetchDrink } from "../redux/slices/drink";
+/**
+ * It's a function that returns a component that shows the information of a drink.
+ * @returns An object with the following properties:
+ * 
+ * {
+ *   "drinks": [
+ *     {
+ *       "idDrink": "11007",
+ *       "strDrink": "Margarita",
+ *       "strDrinkAlternate": null,
+ *       "strDrinkES": null,
+ *       "strDrinkDE
+ */
 export default function Drink() {
   const { drinkId } = useParams();
   const dispatch = useDispatch();

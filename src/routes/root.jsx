@@ -12,6 +12,10 @@ function DarkMode() {
   document.documentElement.classList.toggle("dark");
 }
 
+/**
+ * Root is a function that returns a div with a Sidebar, Navbar, Outlet, and Footer.
+ * @returns The return value of the function is a React element.
+ */
 export default function Root() {
   return (
     <div className="min-h-screen	max-h-full	">
